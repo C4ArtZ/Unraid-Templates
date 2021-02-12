@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+    <Name>valetudo-mapper</Name>
+    <Description>Valetudo-RE companion service for generating PNG maps   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+    <Registry>https://hub.docker.com/r/rand256/valetudo-mapper/</Registry>
+    <Project>https://github.com/rand256/valetudo-mapper</Project>
+    <Support>https://github.com/rand256/valetudo-mapper</Support>
+    <Repository>rand256/valetudo-mapper</Repository>
+    <Overview>Valetudo-RE companion service for generating PNG maps   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+    <Category>Tools:</Category>
+    <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/valetudo-mapper.png</Icon>
+    <BindTime>true</BindTime>
+    <Privileged>false</Privileged>
+    <Config Name="MQTT config" Target="/app/config.json" Default="/mnt/user/appdata/valetudo-mapper/config.json" Mode="rw" Description="Path to your MQTT config.json" Type="Path" Display="always" Required="true" Mask="false"></Config>
+</Container>
