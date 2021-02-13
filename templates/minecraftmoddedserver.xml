@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>minecraftmoddedserver</Name>
+  <Name>MinecraftModdedServer</Name>
   <Repository>c4artz/minecraftmoddedserver</Repository>
   <Registry>https://hub.docker.com/r/c4artz/minecraftmoddedserver/</Registry>
   <Network>bridge</Network>
