@@ -19,7 +19,7 @@
   <Config Name="Game Port" Target="25565" Default="" Mode="tcp" Description="Container Port: 25565" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
   <Config Name="RCON Port" Target="25575" Default="" Mode="tcp" Description="Container Port: 25575" Type="Port" Display="always" Required="false" Mask="false">25575</Config>
   <Config Name="Modloader" Target="MODLOADER" Default="forge" Mode="" Description="Choose between 'forge' and 'fabric'." Type="Variable" Display="always" Required="true" Mask="false">forge</Config>
-  <Config Name="Accept EULA" Target="ACCEPT_EULA" Default="false" Mode="" Description="Set to 'true' if you accept the EULA https://account.mojang.com/documents/minecraft_eula" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="Accept EULA" Target="ACCEPT_EULA" Default="false" Mode="" Description="Set to 'true' if you accept the EULA https://account.mojang.com/documents/minecraft_eula" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
   <Config Name="UID" Target="UID" Default="" Mode="" Description="Container Variable: UID" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
   <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false">000</Config>
   <Config Name="GID" Target="GID" Default="" Mode="" Description="Container Variable: GID" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
