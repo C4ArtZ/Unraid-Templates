@@ -22,5 +22,5 @@
   <Config Name="Accept EULA" Target="ACCEPT_EULA" Default="false" Mode="" Description="Set to 'true' if you accept the EULA https://account.mojang.com/documents/minecraft_eula" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="UID" Target="UID" Default="99" Mode="" Description="Container Variable: UID" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="UMASK" Target="UMASK" Default="000" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="GID" Target="GID" Default="" Mode="100" Description="Container Variable: GID" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="GID" Target="GID" Default="100" Mode="" Description="Container Variable: GID" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
 </Container>
