@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-    <Name>valetudo-mapper</Name>
-    <Description>Valetudo-RE companion service for generating PNG maps   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
-    <Registry>https://hub.docker.com/r/rand256/valetudo-mapper/</Registry>
-    <Project>https://github.com/rand256/valetudo-mapper</Project>
-    <Support>https://github.com/rand256/valetudo-mapper</Support>
-    <Repository>rand256/valetudo-mapper</Repository>
-    <Overview>Valetudo-RE companion service for generating PNG maps   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
-    <Category>Tools:</Category>
-    <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/valetudo-mapper.png</Icon>
-    <BindTime>true</BindTime>
-    <Privileged>false</Privileged>
-    <Config Name="MQTT config" Target="/app/config.json" Default="/mnt/user/appdata/valetudo-mapper/config.json" Mode="rw" Description="Path to your MQTT config.json" Type="Path" Display="always" Required="true" Mask="false"></Config>
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>valetudo-mapper</Name>
+  <Repository>rand256/valetudo-mapper</Repository>
+  <Registry>https://hub.docker.com/r/rand256/valetudo-mapper/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/rand256/valetudo-mapper/</Support>
+  <Project>https://github.com/rand256/valetudo-mapper</Project>
+  <Overview>Valetudo-RE companion service for generating PNG maps.&#xD;&#xD;This is a simple companion service for valetudo which does all the heavy lifting.&#xD;Since both CPU and Memory are limited on the robot, PNG generation for third-party components has been moved here.&#xD;&#xD;&#xD;[b]Make sure you have already created the needed config file! Follow this example https://github.com/rand256/valetudo-mapper[b]</Overview>
+  <Category>Tools:</Category>
+  <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/valetudo-mapper.png</Icon>
+  <Description>Valetudo-RE companion service for generating PNG maps.&#xD;&#xD;This is a simple companion service for valetudo which does all the heavy lifting.&#xD;Since both CPU and Memory are limited on the robot, PNG generation for third-party components has been moved here.&#xD;&#xD;&#xD;[b]Make sure you have already created the needed config file! Follow this example https://github.com/rand256/valetudo-mapper[b]</Description>
+  <Config Name="Config file" Target="/app/config.json" Default="/mnt/user/appdata/valetudo-mapper/config.json" Mode="rw" Description="Path to your config.json file. Follow the example here https://github.com/rand256/valetudo-mapper" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/valetudo-mapper/config.json</Config>
 </Container>
