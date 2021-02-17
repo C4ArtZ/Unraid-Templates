@@ -11,7 +11,8 @@
   <Category>Network:Web</Category>
   <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/backdrop.png</Icon>
   <Description>The comprehensive CMS for small to medium sized businesses and non-profits. Backdrop CMS enables people to build highly customized websites affordably, through collaboration and open source software.&#xD;&#xD;[b]This container requires an external MySQL database! [b]</Description>
-  <Config Name="WebUI Port" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false"/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <Config Name="WebUI Port" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="DB Host" Target="BACKDROP_DB_HOST" Default="" Mode="" Description="IP of you MySQL instance" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="DB Port" Target="BACKDROP_DB_PORT" Default="3306" Mode="" Description="Container Variable: BACKDROP_DB_PORT" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="DB Name" Target="BACKDROP_DB_NAME" Default="backdrop" Mode="" Description="Name of your database. Make sure this already exists!" Type="Variable" Display="always" Required="true" Mask="false"/>
