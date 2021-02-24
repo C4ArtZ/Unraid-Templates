@@ -7,7 +7,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/102829-support-c4artz-templates/</Support>
   <Project>https://kutt.it/</Project>
-  <Overview>Kutt is a modern URL shortener with support for custom domains. Shorten URLs, manage your links and view the click rate statistics.</Overview>
+  <Overview>Kutt is a modern URL shortener with support for custom domains. Shorten URLs, manage your links and view the click rate statistics.&#xD;&#xD;[b]This container requires Redis a Postgres database and a functioning FQDN![b]&#xD;&#xD;Setup:&#xD;1. Install the Postgres container from your Apps tab.&#xD;2. Create a database an user.&#xD;3. Give the user permissions on the created database.&#xD;4. Install the Redis container from your Apps tab.&#xD;5. Setup an email account which Kutt can use. (technically optional but highly recommended!)&#xD;6. Setup an your preferred method of exposing Kutt to the outside world.&#xD;7. Fill out this template.&#xD;&#xD;Optional:&#xD;1. Setup Google Safe Browsing&#xD;2. Setup Google Analytics&#xD;</Overview>
   <Category>Cloud: Tools: Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/kutt.png</Icon>
