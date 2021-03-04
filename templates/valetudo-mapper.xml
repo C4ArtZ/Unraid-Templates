@@ -7,7 +7,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/102829-support-c4artz-templates/</Support>
   <Project>https://github.com/rand256/valetudo-mapper</Project>
-  <Overview>Valetudo-RE companion service for generating PNG maps.&#xD;&#xD;This is a simple companion service for valetudo which does all the heavy lifting.</Overview>
+  <Overview>Valetudo-RE companion service for generating PNG maps.&#xD;&#xD;This is a simple companion service for valetudo which does all the heavy lifting.&#xD;Since both CPU and Memory are limited on the robot, PNG generation for third-party components has been moved here.&#xD;&#xD;&#xD;[b]Make sure you have already created the needed config file! Follow this example https://github.com/rand256/valetudo-mapper[b]</Overview>
   <Category>Tools:</Category>
   <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/valetudo-mapper.png</Icon>
   <Description>Valetudo-RE companion service for generating PNG maps.&#xD;&#xD;This is a simple companion service for valetudo which does all the heavy lifting.&#xD;Since both CPU and Memory are limited on the robot, PNG generation for third-party components has been moved here.&#xD;&#xD;&#xD;[b]Make sure you have already created the needed config file! Follow this example https://github.com/rand256/valetudo-mapper[b]</Description>
