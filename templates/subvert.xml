@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/aschmelyun/subvert/issues</Support>
   <Project>https://github.com/aschmelyun/subvert/</Project>
-  <Overview>Generate subtitles, chapters, and summaries of videos in seconds with the help of OpenAI.</Overview>
+  <Overview>Generate subtitles, chapters, and summaries of videos in seconds with the help of OpenAI.&#xD;
+&#xD;
+Keep in mind, that the OpenAI is not free!</Overview>
   <Category>Productivity: Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
