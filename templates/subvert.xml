@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Subvert</Name>
+  <Repository>aschmelyun/subvert</Repository>
+  <Registry>https://registry.hub.docker.com/r/aschmelyun/subvert</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/aschmelyun/subvert/issues</Support>
+  <Project>https://github.com/aschmelyun/subvert/</Project>
+  <Overview>Generate subtitles, chapters, and summaries of videos in seconds with the help of OpenAI.</Overview>
+  <Category>Productivity: Tools: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/C4ArtZ/Unraid-Templates/master/templates/icons/subvert.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1680362542</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="OPENAI_API_KEY" Target="OPENAI_API_KEY" Default="" Mode="" Description="https://platform.openai.com/account/api-keys" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="WebUI" Target="80" Default="80" Mode="tcp" Description="Subvert will be available on this port" Type="Port" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Max uploadable filesize" Target="UPLOAD_MAX_FILESIZE" Default="1G" Mode="" Description="Changes PHP's UPLOAD_MAX_FILESIZE setting. Default is 256M" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Memory Limit" Target="MEMORY_LIMIT" Default="2G" Mode="" Description="Changes PHP's MEMORY_LIMIT setting. Default is 512M" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
